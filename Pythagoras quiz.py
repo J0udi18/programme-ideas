@@ -7,8 +7,8 @@ score = 0
 for i in range(5):
     a = random.randint(1, 10)
     b = random.randint(1, 10)
-    c = round((a**2 + b**2)**0.5, 2)
-    print(f"Question {i+1}:")
+    c = round((a ** 2 + b ** 2) ** 0.5, 2)
+    print(f"Question {i + 1}:")
     print(f"Side A: {a}")
     print(f"Side B: {b}")
     answer = input("What is the length of Side C? (Round to 2 decimal places) ")
@@ -24,7 +24,7 @@ if score == 5:
 elif score >= 3:
     print("Good job! Keep practicing.")
 else:
-    print("Better luck next time. Keep practicing.") 
+    print("Better luck next time. Keep practicing.")
 
 # The quiz generates random values ​​for Side A and Side B of a right triangle, 
 # and asks the user to input the length of Side C.

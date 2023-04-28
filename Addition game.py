@@ -1,5 +1,6 @@
 import random
 
+
 def addition_game():
     num1 = random.randint(1, 10)
     num2 = random.randint(1, 10)
@@ -10,7 +11,8 @@ def addition_game():
     else:
         print(f"Sorry, the correct answer is {answer}.")
 
+
 addition_game()
 # This code will generate two random numbers between 1 and 10, add them together, 
 # and ask the user to input their answer. If the user's answer matches the correct answer,
-# it will print "Correct!" Otherwise, it will print the correct answer. 
+# it will print "Correct!" Otherwise, it will print the correct answer.

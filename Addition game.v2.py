@@ -1,5 +1,6 @@
 import random
 
+
 def addition_game():
     score = 0
     rounds = 0
@@ -10,7 +11,7 @@ def addition_game():
         num2 = random.randint(1, 10)
         answer = num1 + num2
         guess = input(f"What is {num1} + {num2}? (Type 'q' to quit) ")
-        
+
         if guess.lower() == "q":
             play_again = False
         else:

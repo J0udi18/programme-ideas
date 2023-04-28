@@ -9,18 +9,18 @@ while True:
     a = random.randint(1, 10)
     b = random.randint(1, 10)
     c = round((a ** 2 + b ** 2) ** 0.5, 2)
-    
+
     sides = [a, b, c]
     random.shuffle(sides)
-    
+
     print(f" {a} cm {b} cm ?")
-    
+
     answer = input("What is the length of the missing side? (Enter 'q' to quit) ")
-    
+
     if answer.lower() == "q":
         print(f"Your final score is {score}")
         break
-    
+
     try:
         answer = float(answer)
         if answer == c:
