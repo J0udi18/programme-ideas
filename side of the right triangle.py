@@ -33,6 +33,4 @@ for i in range(num_questions):
 # Ask the user for their answers
 score = 0
 for i in range(num_questions):
-    answer = int(input(f"Enter your answer") 
-
-# that code generates 10 questions with multiple-choice answers
+    answer = int(input(f"Enter your answer"))

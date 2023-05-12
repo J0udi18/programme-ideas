@@ -51,7 +51,7 @@ def yes_no(question):
 
 # Main routine starts here
 print("***************************************")
-print("**** Welcome to Higher, lower game ****")
+print("**** guessing number ****")
 print("***************************************")
 print()
 print()

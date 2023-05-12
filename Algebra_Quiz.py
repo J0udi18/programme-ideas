@@ -22,4 +22,10 @@ def yes_no(question):
 def instructions():
     print("Instructions")
     print('''
+- Expand
+- Factor
+- simplify
     ''')
+    return""
+
+
